@@ -1,0 +1,13 @@
+kliknem na tlacitko generate person nasledne zavolam funkciu getPeron
+
+getPerson() ma definovanu url https://randomuser.me/api
+
+pomocou fetch vytvoris request a cely asynchronny kod rieš pomocou asyn a await nie then, catch...
+try {} a catch {}
+ak ti pridu data dostan ich do index.html podla designu.
+
+
+potom druhy js subor skus pouziť then a catch...
+
+potom treti js subor skusit pouzit new promise resolve reject
+

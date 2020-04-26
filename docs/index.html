@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="card" style="width: 450px; margin: 0 auto;">
+						<div id="imgOfPerson" ; class="card-img-top"></div>
+						<div class="card-body">
+							<ul
+								id="listOfLiItems"
+								class="card-text"
+								style="list-style-type: none; padding-left: 0;"
+							>
+								<li id="name"></li>
+								<li id="lastName"></li>
+								<li id="location"></li>
+								<li id="phone"></li>
+								<li id="email"></li>
+							</ul>
+						</div>
+						<div
+							style="
+								background-color: rgb(240, 235, 235);
+								padding: 20px;
+								text-align: center;
+							"
+						>
+							<button
+								id="btnGeneratePerson-fetch-async-await"
+								type="button"
+								style="
+									background-color: transparent;
+									color: rgb(235, 204, 66);
+									border-color: rgb(235, 204, 66);
+								"
+								;
+								class="btn btn-warning"
+							>
+								Generate Person fetch async await
+							</button>
+						</div>
+						<div
+							style="
+								background-color: rgb(240, 235, 235);
+								padding: 20px;
+								text-align: center;
+							"
+						>
+							<button
+								id="btnGeneratePerson-promise"
+								type="button"
+								style="
+									background-color: transparent;
+									color: rgb(235, 204, 66);
+									border-color: rgb(235, 204, 66);
+								"
+								;
+								class="btn btn-warning"
+							>
+								Generate Person promise
+							</button>
+						</div>
+						<div
+							style="
+								background-color: rgb(240, 235, 235);
+								padding: 20px;
+								text-align: center;
+							"
+						>
+							<button
+								id="btnGeneratePerson-then-catch"
+								type="button"
+								style="
+									background-color: transparent;
+									color: rgb(235, 204, 66);
+									border-color: rgb(235, 204, 66);
+								"
+								;
+								class="btn btn-warning"
+							>
+								Generate Person then catch
+							</button>
+						</div>
+						<div
+							style="
+								background-color: rgb(240, 235, 235);
+								padding: 20px;
+								text-align: center;
+							"
+						>
+							<button
+								id="btnGeneratePerson-axios"
+								type="button"
+								style="
+									background-color: transparent;
+									color: rgb(235, 204, 66);
+									border-color: rgb(235, 204, 66);
+								"
+								;
+								class="btn btn-warning"
+							>
+								Generate Person axios
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://kit.fontawesome.com/4c09c15629.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script src="main-axios.js"></script>
+		<script src="main-fetch-async-await.js"></script>
+		<script src="main-promise.js"></script>
+		<script src="main-then-catch.js"></script>
+	</body>
+</html>
