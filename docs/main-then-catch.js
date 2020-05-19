@@ -10,7 +10,6 @@ const getFetchThenCatch = () => {
 			// const email = results.email
 			// to iste pomocou deštruktra
 			const { picture, name, location, phone, email } = results
-
 			// tieto dve funkcie su importnute z kniznice pomocou array napr.
 			// toto sa nachadza v subore kniznica.js
 			// const functionA = () => console.log('a')
