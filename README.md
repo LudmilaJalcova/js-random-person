@@ -1,3 +1,3 @@
 # js-random-person
 
-[Demo](https://ludmilajalcova.github.io/js-random-person)
+[Demo](https://ludmilaschlegelova.github.io/js-random-person)
